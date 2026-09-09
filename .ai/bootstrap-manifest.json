@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "NOT_STARTED",
+  "completedAtUtc": null,
+  "replaceSectionsOnly": true,
+  "populateFiles": [
+    "docs/WORK_ENVIRONMENT.md",
+    "docs/SYSTEMS_AND_CAPABILITIES.md",
+    "docs/ACCESS_AND_APPROVALS.md",
+    "STATE.md",
+    "foundry/LOCAL_AGENT_PROFILE.md"
+  ],
+  "preserveFiles": [
+    "START_HERE.md",
+    "AI.md",
+    "SECURITY.md",
+    "docs/PRODUCT.md",
+    "docs/REQUIREMENTS.md",
+    "docs/REFERENCE_ARCHITECTURE.md",
+    "docs/OWNERSHIP_BOUNDARIES.md",
+    "docs/SECURITY_BOUNDARY.md",
+    "docs/DELIVERY_ROADMAP.md",
+    "docs/DECISIONS.md"
+  ],
+  "approvalRequired": [
+    "push",
+    "pull_request_creation",
+    "merge",
+    "tag_or_release",
+    "external_connection",
+    "dependency_installation",
+    "production_change",
+    "destructive_git_operation",
+    "accept_or_supersede_architecture_decision"
+  ],
+  "neverDo": [
+    "force_push",
+    "discard_uncommitted_work",
+    "commit_secrets",
+    "copy_work_content_to_personal_systems",
+    "invent_capability_evidence"
+  ]
+}

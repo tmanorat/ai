@@ -1,0 +1,41 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+secrets/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Common build and dependency output
+node_modules/
+dist/
+build/
+coverage/
+bin/
+obj/
+.venv/
+__pycache__/
+*.pyc
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Private or generated evidence not approved for Git
+evidence/private/
+
+# Power BI binary artifacts need an explicit work-repository storage decision
+*.pbix
+*.pbit

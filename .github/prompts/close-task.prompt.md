@@ -1,0 +1,1 @@
+Close out the active task. Run the relevant checks, review the complete diff, update `STATE.md` if project state materially changed, create a timestamped handoff for meaningful work, and report validation, remaining risks, and the single next action. Do not push, merge, or deploy unless authorized.
